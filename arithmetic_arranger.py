@@ -31,7 +31,6 @@ def arithmetic_arranger(problems,need_result=None):
           first_number = "    ".join(first_number_list)+"\n"
           second_number = "    ".join(second_number_list)+"\n" 
           result = "    ".join(result_list)
-
           if need_result== None:
               need_result = False
           if need_result ==True:
